@@ -1,0 +1,31 @@
+.square {
+    display: grid;
+    place-items: center;
+    border: 0.5px grey solid;
+    font-size: 6em;
+    user-select: none;
+}
+
+.borderBottom {
+    border-bottom: 1px grey solid;
+}
+
+.borderTop {
+    border-top: 1px grey solid;
+}
+
+.borderRight {
+    border-right: 1px grey solid;
+}
+
+.borderLeft {
+    border-left: 1px grey solid;
+}
+
+.naught {
+    background-color: rgb(91, 160, 228);
+}
+
+.cross {
+    background-color: rgb(241, 133, 109);
+}
